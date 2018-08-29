@@ -36,6 +36,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng ravi = new LatLng(9.934618, -84.063455);
         LatLng kalu = new LatLng(9.934956, -84.064356);
         LatLng mantras = new LatLng(9.937048, -84.061845);
+
         mMap.addMarker(new MarkerOptions()
                 .position(arbolDeSeda)
                 .title("Árbol de Seda")
